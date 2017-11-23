@@ -8,5 +8,6 @@ public:
     void PrintPerson();
 private:
     std::string name;
+    std::string lastName;
     int age;
 };
