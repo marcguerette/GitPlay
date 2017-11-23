@@ -1,4 +1,5 @@
 #include <iostream>
+#include "person.h"
 
 int main(int argc, char const *argv[])
 {
@@ -8,6 +9,9 @@ int main(int argc, char const *argv[])
     {
         std::cout << i << "\n";
     }
+
+    Person p1("Person 1");
+    p1.PrintPerson();
 
     return 0;
 }
