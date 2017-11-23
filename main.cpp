@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
         std::cout << i << "\n";
     }
 
-    Person p1("Person 1");
+    Person p1("Person 1", 25);
     p1.PrintPerson();
 
     return 0;
