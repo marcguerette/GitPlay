@@ -3,7 +3,7 @@
 
 int main(int argc, char const *argv[])
 {
-    std::cout << "Hello, World" << std::endl;
+    std::cout << "Hello there, world" << std::endl;
 
     for (int i = 0; i < 5; ++i)
     {
