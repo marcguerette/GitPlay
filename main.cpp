@@ -10,10 +10,10 @@ int main(int argc, char const *argv[])
         std::cout << i << "\n";
     }
 
-    Person p1("Person 1", 25);
+    Person p1("Joe", "Bloggs", 25);
     p1.PrintPerson();
 
-    Person p2("Person 2", 35);
+    Person p2("Andy", "Barrow", 35);
     p2.PrintPerson();
 
     return 0;

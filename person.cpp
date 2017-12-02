@@ -1,9 +1,10 @@
 #include "person.h"
 #include <iostream>
 
-Person::Person(std::string nm, int ag)
+Person::Person(std::string fn, std::string ln, int ag)
 {
-    name = nm;
+    firstName = fn;
+    lastName = ln;
     age = ag;
 }
 
@@ -14,5 +15,5 @@ Person::~Person()
 
 void Person::PrintPerson()
 {
-    std::cout << "Name:" << name << std::endl << "Age:" << age << std::endl;
+    std::cout << "Name:" << lastName << ", " << firstName << std::endl << "Age:" << age << std::endl;
 }
