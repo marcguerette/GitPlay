@@ -15,5 +15,5 @@ Person::~Person()
 
 void Person::PrintPerson()
 {
-    std::cout << "Name:" << lastName << ", " << firstName << std::endl << "Age:" << age << std::endl;
+    std::cout << "Last name:" << lastName << std::endl << "First name:" << firstName << std::endl << "Age:" << age << "\n\n";
 }
