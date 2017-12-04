@@ -15,9 +15,8 @@ int main(int argc, char const *argv[])
 
     Person p2("Andy", "Barrow", 35);
     p2.PrintPerson();
-	
-	Person p3("Chris", "Gahagan", 50);
-    p3.PrintPerson();
 
+	Person p3("Marc", "Barrow", 35);
+    p3.PrintPerson();
     return 0;
 }
